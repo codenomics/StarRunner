@@ -6,21 +6,14 @@
 
 ## Download
 
-**Latest version: v1.0** (Oct 5, 2026)
+**Latest version: v1.1** (Oct 5, 2026)
 
-- [StarRunner_v1.0_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.0/StarRunner_v1.0_no-install.zip) - 443 KB
-- [StarRunner_v1.0_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.0/StarRunner_v1.0_Setup.exe) - 472 KB
+- [StarRunner_v1.1_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.1/StarRunner_v1.1_no-install.zip) - 476 KB
+- [StarRunner_v1.1_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.1/StarRunner_v1.1_Setup.exe) - 539 KB
 
-What's new in v1.0:
+What's new in v1.1:
 
-- First release: all your Star Citizen *Runner tools in one window, with a tab for each tool
-- CitRunner tab: look up a player by handle and see their public RSI profile and organizations
-- MineRunner tab: reads the mining scan number off your screen and shows which rock it is in a see-through overlay, and keeps working while you use the other tabs
-- LangRunner tab: open or download a Star Citizen language file, edit entries, keep your changes for new versions, save to the game with backups
-- Notes tab: a light notepad with a list on the left and the text on the right, saved as plain text files
-- Home tab with a quick look at each tool, five color looks to pick from, and tabs you can drag into your own order
-- The window can be resized and maximized, and it remembers the tab you had open
-- Checks GitHub for a newer version and offers to update
+- Added App Icon as there was none previously
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -92,6 +85,7 @@ USING IT
 - MineRunner tab:
   1. Click Pick area, switch to the game and scan a rock so the number shows.
      After 5 seconds the screen freezes - drag a box around the number.
+     (Any game window mode works: Borderless, Windowed or Fullscreen.)
   2. Click Start reading. The overlay shows e.g. "3x Titanium" while the
      number is on screen. It keeps working while you use the other tabs.
   The Signatures button opens the table of scan numbers (you can fix or add
