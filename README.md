@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest version: v1.1** (Oct 5, 2026)
+**Latest version: v1.2** (Oct 5, 2026)
 
-- [StarRunner_v1.1_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.1/StarRunner_v1.1_no-install.zip) - 476 KB
-- [StarRunner_v1.1_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.1/StarRunner_v1.1_Setup.exe) - 539 KB
+- [StarRunner_v1.2_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.2/StarRunner_v1.2_no-install.zip) - 476 KB
+- [StarRunner_v1.2_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.2/StarRunner_v1.2_Setup.exe) - 539 KB
 
-What's new in v1.1:
+What's new in v1.2:
 
-- Added App Icon as there was none previously
+- Fixed the update check still offering an update after you had installed the newest version
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
