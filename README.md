@@ -90,10 +90,9 @@ USING IT
 - CitRunner tab: type a player's handle (the name in the address of their
   RSI profile) and press Enter or click Look up.
 - MineRunner tab:
-  1. Set Star Citizen's window mode to Borderless (Graphics settings).
-  2. Click Pick area, switch to the game and scan a rock so the number shows.
+  1. Click Pick area, switch to the game and scan a rock so the number shows.
      After 5 seconds the screen freezes - drag a box around the number.
-  3. Click Start reading. The overlay shows e.g. "3x Titanium" while the
+  2. Click Start reading. The overlay shows e.g. "3x Titanium" while the
      number is on screen. It keeps working while you use the other tabs.
   The Signatures button opens the table of scan numbers (you can fix or add
   values after game updates). Press F1 for more help.
