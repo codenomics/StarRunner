@@ -6,15 +6,15 @@
 
 ## Download
 
-**Latest version: v1.4** (Oct 8, 2026)
+**Latest version: v1.5** (Oct 8, 2026)
 
-- [StarRunner_v1.4_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.4/StarRunner_v1.4_no-install.zip) - 476 KB
-- [StarRunner_v1.4_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.4/StarRunner_v1.4_Setup.exe) - 539 KB
-- [StarRunner_v1.4_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.4/StarRunner_v1.4_source.zip) - 466 KB
+- [StarRunner_v1.5_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.5/StarRunner_v1.5_no-install.zip) - 476 KB
+- [StarRunner_v1.5_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.5/StarRunner_v1.5_Setup.exe) - 539 KB
+- [StarRunner_v1.5_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.5/StarRunner_v1.5_source.zip) - 466 KB
 
-What's new in v1.4:
+What's new in v1.5:
 
-- No app changes. Uploading Code**
+- updater versioning fix**
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
