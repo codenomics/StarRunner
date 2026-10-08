@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest version: v1.2** (Oct 5, 2026)
+**Latest version: v1.3** (Oct 8, 2026)
 
-- [StarRunner_v1.2_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.2/StarRunner_v1.2_no-install.zip) - 476 KB
-- [StarRunner_v1.2_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.2/StarRunner_v1.2_Setup.exe) - 539 KB
+- [StarRunner_v1.3_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.3/StarRunner_v1.3_no-install.zip) - 476 KB
+- [StarRunner_v1.3_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.3/StarRunner_v1.3_Setup.exe) - 539 KB
 
-What's new in v1.2:
+What's new in v1.3:
 
-- Fixed the update check still offering an update after you had installed the newest version
+- MineRunner tab: fixed signature numbers in blue areas and ships, where an 8 could be read as a 0 (for example 17,080 showing as 17,000)
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
