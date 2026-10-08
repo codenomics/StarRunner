@@ -6,14 +6,15 @@
 
 ## Download
 
-**Latest version: v1.3** (Oct 8, 2026)
+**Latest version: v1.4** (Oct 8, 2026)
 
-- [StarRunner_v1.3_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.3/StarRunner_v1.3_no-install.zip) - 476 KB
-- [StarRunner_v1.3_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.3/StarRunner_v1.3_Setup.exe) - 539 KB
+- [StarRunner_v1.4_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.4/StarRunner_v1.4_no-install.zip) - 476 KB
+- [StarRunner_v1.4_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.4/StarRunner_v1.4_Setup.exe) - 539 KB
+- [StarRunner_v1.4_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.4/StarRunner_v1.4_source.zip) - 466 KB
 
-What's new in v1.3:
+What's new in v1.4:
 
-- MineRunner tab: fixed signature numbers in blue areas and ships, where an 8 could be read as a 0 (for example 17,080 showing as 17,000)
+- No app changes. Uploading Code**
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -32,6 +33,10 @@ Older versions are on the [Releases page](https://github.com/codenomics/StarRunn
 3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
 
 Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## Source code
+
+Want to see how it works, or build it yourself? Download the file ending in `_source.zip` above, extract it and double-click `Build.bat`. It only uses the C# compiler that already comes with Windows, so there is nothing to install.
 
 ## More details
 
