@@ -6,15 +6,19 @@
 
 ## Download
 
-**Latest version: v1.5** (Oct 8, 2026)
+**Latest version: v1.6** (Oct 11, 2026)
 
-- [StarRunner_v1.5_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.5/StarRunner_v1.5_no-install.zip) - 476 KB
-- [StarRunner_v1.5_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.5/StarRunner_v1.5_Setup.exe) - 539 KB
-- [StarRunner_v1.5_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.5/StarRunner_v1.5_source.zip) - 466 KB
+- [StarRunner_v1.6_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.6/StarRunner_v1.6_no-install.zip) - 506 KB
+- [StarRunner_v1.6_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.6/StarRunner_v1.6_Setup.exe) - 569 KB
+- [StarRunner_v1.6_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.6/StarRunner_v1.6_source.zip) - 496 KB
 
-What's new in v1.5:
+What's new in v1.6:
 
-- updater versioning fix**
+- New Inventory tab: keep track of what you have stored where, across the universe
+- Add item picks the place where you last opened your inventory in game
+- Places grouped by system and planet, a search that looks everywhere, and an All items view with totals
+- Move items (or part of a stack) between places, set a home and move everything home after a patch
+- Back up and load your inventory, and pick your own color for each item type
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -52,7 +56,9 @@ The MineRunner tab reads the mining scan number off your screen in Star
 Citizen and shows which rock it is in a small see-through overlay.
 The LangRunner tab edits the game's language file (global.ini) and keeps your
 edits so they can be put back on every new version. The Notes tab is a light
-notepad: a list of notes on the left and the text on the right.
+notepad: a list of notes on the left and the text on the right. The Inventory
+tab keeps track of what you have stored where, across the universe, and knows
+where you last opened your inventory in game.
 
 
 GETTING STARTED
@@ -107,6 +113,21 @@ USING IT
      lists the backups so you can put one back. Press F1 for the guide.
 - Notes tab: click New note and type. The first line is the title. Notes save
   by themselves and are plain text files in Documents\StarRunner Notes.
+- Inventory tab:
+  1. Open your inventory in game at a station or city, then click Add item.
+     StarRunner picks that place for you (it reads the game's log file). Pick
+     the type, type the name and the amount (units, SCU or cSCU) and click
+     Add, or Add + next to keep going. With SCU you can also type how many
+     cargo boxes and their size (for example 8 x 8 SCU) and it works out the total.
+  2. Your places are listed on the left by system and planet. Click one to
+     see what's there. All items adds up the same things across every place.
+  3. The search box looks through every place at once. Double-click a result
+     to go there.
+  4. Each item has small buttons: -1 and +1 to change the amount quickly,
+     then edit, move (all of it or part of a stack) and remove.
+     Right-click a place to rename it, make it your home, or remove it.
+  5. Tools: Set home location, Move everything home (after a patch moves your
+     stuff), Back up / Load a backup, Item colors and Clear all.
 - Click any name in the Recent list to look that player up again.
 - Their organizations are listed with the player's rank in each. Click one
   to see its Overview, History, Manifesto, Charter and a Members list.
@@ -121,6 +142,10 @@ GOOD TO KNOW
   the text reader built into Windows, and never touches the game. It needs an
   English text-reader language in Windows (Settings > Time & language >
   Language & region); most PCs already have it. Parts a player keeps private show as "-".
+- The Inventory tab only reads the game's log file (Game.log in the game's
+  LIVE folder) to see where you last opened your inventory. It never changes
+  anything in the game. If it can't find the log, use Tools > Find the game's
+  log file. Your inventory is kept in %APPDATA%\StarRunner\inventory.txt.
 - The LangRunner tab only writes to the game's language folder when you click
   Save to game (and it backs up the old file first). Language packs come
   from public GitHub pages; nothing about you is sent.
