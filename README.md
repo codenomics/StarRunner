@@ -6,24 +6,25 @@
 
 ## Download
 
-**Latest version: v1.7** (Oct 11, 2026)
+**Latest version: v1.8** (Oct 11, 2026)
 
-- [StarRunner_v1.7_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.7/StarRunner_v1.7_no-install.zip) - 537 KB
-- [StarRunner_v1.7_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.7/StarRunner_v1.7_Setup.exe) - 599 KB
-- [StarRunner_v1.7_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.7/StarRunner_v1.7_source.zip) - 525 KB
+- [StarRunner_v1.8_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_no-install.zip) - 552 KB
+- [StarRunner_v1.8_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_Setup.exe) - 613 KB
+- [StarRunner_v1.8_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_source.zip) - 541 KB
 
-What's new in v1.7:
+What's new in v1.8:
 
-- New Hauling tab: add your cargo contracts and get the best order to fly them
-- Knows your ship's cargo space and splits big contracts into trips
-- Routes through other systems when a gateway detour is shorter, and shows the jumps
-- Choose shortest distance or fewest stops, start where you are in game, tick stops off as you fly
-- Places and distances come from UEX Corp and update by themselves once a week
-- Inventory: places with nothing in them are hidden, -1/+1 and icon buttons on each item, SCU box counter, more places including Nyx
-- Hauling: full ship list with search, and My ships to add your own
-- Hauling: optional cargo map - draw your ship's cargo grid once, type the boxes from the freight elevator, and see where every box goes at each stop (first off nearest the ramp); drag a box to move it, right-click to turn it
-- Hauling: three-column layout (planning, best route, cargo map), Clear contracts button, a box-sizes button on each contract, and how full the hold is at every stop
-- Tabs renamed: Citizens, Mining and Language Packs
+- Hauling: checked-off stops stay as they are - adding or removing a contract only re-plans the rest of the route, starting from your last checked stop (and checks are remembered when you close StarRunner)
+- Hauling: total pay of your contracts under the list, with how much you have earned so far
+- Hauling: "Hold Size" on each stop, in a tighter font
+- Hauling: contracts with several pick-ups or drop-offs - add a line for each, with its own SCU, and the route plans them all
+- Hauling: type the boxes at each pick-up stop in the route (the freight elevator shows them when you get there)
+- Place fields empty when you click them so you can just type; click away to keep the old place
+- Cargo map: tighter packing - big boxes line up and small boxes stack together, so a full hold fits
+- Hauling: with the cargo map on, if the boxes don't fit the grid the route adds another trip
+- Cargo map: drag a box onto another to stack it, or onto an empty spot to put it on the floor
+- Hauling: contracts you accept in game are offered to add (from Game.log), and finished ones ask before checking off their stops
+- New looks on the Home tab: lighter ones (Dusk, Slate, Daylight, Paper) and ship maker looks (Aegis, Anvil, Argo, Banu, Consolidated Outland, Crusader, Drake, Esperia, MISC, Origin, RSI, Aopoa)
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -144,21 +145,36 @@ USING IT
   1. At the top left, pick your ship (or type its cargo SCU), where you
      start, and Shortest distance or Fewest stops.
   2. Click Add contract for each hauling job: where it's picked up, where it
-     goes, how many SCU (and the reward if you like). Each contract has
+     goes, how many SCU (and the reward if you like). If a contract has
+     more than one pick-up or drop-off, click "+ Add a pick-up or drop-off"
+     and add a line for each, with its own SCU. Each contract has
      buttons to edit or remove it. Clear contracts empties the whole list
      (it asks first).
   3. The best order shows in the middle: each stop with what to load and
-     unload, the distance flown and any gateway jumps. Tick stops off as you
+     unload, the distance flown and any gateway jumps. Check stops off as you
      fly them. Big contracts are split into trips that fit your ship.
+     Checked stops stay as they are: add or remove a contract on the way
+     and only the rest of the route is worked out again, from your last
+     checked stop. A contract in a checked stop can't be edited.
+     Under the contracts you see the total pay (from the rewards you typed)
+     and how much you have earned so far.
   4. Ship list: type part of a name to find it. My ships... adds your own.
-  5. Cargo map (optional): tick "Show the cargo map", pick your ship and click
+  5. Contracts from the game: when you accept a hauling contract in game,
+     StarRunner offers to add it (with the places, and the SCU when the game
+     logs it - check it and add the reward). When the game says a contract is
+     complete, it asks before checking off its stops. It only reads Game.log
+     and only asks while you're looking at the Hauling tab.
+  6. Cargo map (optional): check "Show the cargo map", pick your ship and click
      Edit grid to draw its cargo hold once (squares across, long and high, and
      the ramp edge). In each contract you can type the boxes the freight
      elevator lists, or click the boxes button on a contract to set them
      later. The map shows in its own column on the right. Click a stop to see
      where every box sits: Arrive shows
-     what to take off, Leave shows what was put on. Drag a box to move it,
-     right-click to turn it.
+     what to take off, Leave shows what was put on. Drag a box to move it
+     (drop it on another box to stack it, or on an empty spot to put it on
+     the floor), right-click to turn it. You usually only see the box sizes at the
+     freight elevator: click the boxes button on that stop in the route and
+     type them there.
 
 GOOD TO KNOW
 ------------
