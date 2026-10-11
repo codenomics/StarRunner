@@ -6,19 +6,24 @@
 
 ## Download
 
-**Latest version: v1.6** (Oct 11, 2026)
+**Latest version: v1.7** (Oct 11, 2026)
 
-- [StarRunner_v1.6_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.6/StarRunner_v1.6_no-install.zip) - 506 KB
-- [StarRunner_v1.6_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.6/StarRunner_v1.6_Setup.exe) - 569 KB
-- [StarRunner_v1.6_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.6/StarRunner_v1.6_source.zip) - 496 KB
+- [StarRunner_v1.7_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.7/StarRunner_v1.7_no-install.zip) - 537 KB
+- [StarRunner_v1.7_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.7/StarRunner_v1.7_Setup.exe) - 599 KB
+- [StarRunner_v1.7_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.7/StarRunner_v1.7_source.zip) - 525 KB
 
-What's new in v1.6:
+What's new in v1.7:
 
-- New Inventory tab: keep track of what you have stored where, across the universe
-- Add item picks the place where you last opened your inventory in game
-- Places grouped by system and planet, a search that looks everywhere, and an All items view with totals
-- Move items (or part of a stack) between places, set a home and move everything home after a patch
-- Back up and load your inventory, and pick your own color for each item type
+- New Hauling tab: add your cargo contracts and get the best order to fly them
+- Knows your ship's cargo space and splits big contracts into trips
+- Routes through other systems when a gateway detour is shorter, and shows the jumps
+- Choose shortest distance or fewest stops, start where you are in game, tick stops off as you fly
+- Places and distances come from UEX Corp and update by themselves once a week
+- Inventory: places with nothing in them are hidden, -1/+1 and icon buttons on each item, SCU box counter, more places including Nyx
+- Hauling: full ship list with search, and My ships to add your own
+- Hauling: optional cargo map - draw your ship's cargo grid once, type the boxes from the freight elevator, and see where every box goes at each stop (first off nearest the ramp); drag a box to move it, right-click to turn it
+- Hauling: three-column layout (planning, best route, cargo map), Clear contracts button, a box-sizes button on each contract, and how full the hold is at every stop
+- Tabs renamed: Citizens, Mining and Language Packs
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -49,16 +54,17 @@ STARRUNNER
 ==========
 
 All your Star Citizen tools in one window, with a tab for each tool.
-The CitRunner tab looks up a Star Citizen player by their handle and shows
+The Citizens tab looks up a Star Citizen player by their handle and shows
 their public RSI profile: avatar, citizen record number, enlisted date,
 location, fluency, badge, organizations (with their rank) and bio.
-The MineRunner tab reads the mining scan number off your screen in Star
+The Mining tab reads the mining scan number off your screen in Star
 Citizen and shows which rock it is in a small see-through overlay.
-The LangRunner tab edits the game's language file (global.ini) and keeps your
+The Language Packs tab edits the game's language file (global.ini) and keeps your
 edits so they can be put back on every new version. The Notes tab is a light
 notepad: a list of notes on the left and the text on the right. The Inventory
 tab keeps track of what you have stored where, across the universe, and knows
-where you last opened your inventory in game.
+where you last opened your inventory in game. The Hauling tab works out the
+best order to fly your cargo contracts.
 
 
 GETTING STARTED
@@ -91,9 +97,9 @@ USING IT
 - Home tab: a quick look at each tool, plus a Look picker with five color
   looks (Synthwave, Ocean, Ember, Forest, Graphite). Pick one and click
   Restart now to use it.
-- CitRunner tab: type a player's handle (the name in the address of their
+- Citizens tab: type a player's handle (the name in the address of their
   RSI profile) and press Enter or click Look up.
-- MineRunner tab:
+- Mining tab:
   1. Click Pick area, switch to the game and scan a rock so the number shows.
      After 5 seconds the screen freezes - drag a box around the number.
      (Any game window mode works: Borderless, Windowed or Fullscreen.)
@@ -101,7 +107,7 @@ USING IT
      number is on screen. It keeps working while you use the other tabs.
   The Signatures button opens the table of scan numbers (you can fix or add
   values after game updates). Press F1 for more help.
-- LangRunner tab:
+- Language Packs tab:
   1. Click Choose language file (or drag a global.ini onto the window). "Get
      newest" downloads a community language pack from GitHub.
   2. Search the list, click an entry and type in the Current value box.
@@ -134,25 +140,47 @@ USING IT
 - "Open on RSI website" opens their page in your browser.
 
 
+- Hauling tab:
+  1. At the top left, pick your ship (or type its cargo SCU), where you
+     start, and Shortest distance or Fewest stops.
+  2. Click Add contract for each hauling job: where it's picked up, where it
+     goes, how many SCU (and the reward if you like). Each contract has
+     buttons to edit or remove it. Clear contracts empties the whole list
+     (it asks first).
+  3. The best order shows in the middle: each stop with what to load and
+     unload, the distance flown and any gateway jumps. Tick stops off as you
+     fly them. Big contracts are split into trips that fit your ship.
+  4. Ship list: type part of a name to find it. My ships... adds your own.
+  5. Cargo map (optional): tick "Show the cargo map", pick your ship and click
+     Edit grid to draw its cargo hold once (squares across, long and high, and
+     the ramp edge). In each contract you can type the boxes the freight
+     elevator lists, or click the boxes button on a contract to set them
+     later. The map shows in its own column on the right. Click a stop to see
+     where every box sits: Arrive shows
+     what to take off, Leave shows what was put on. Drag a box to move it,
+     right-click to turn it.
+
 GOOD TO KNOW
 ------------
-- The CitRunner tab only reads public pages on robertsspaceindustries.com.
+- The Citizens tab only reads public pages on robertsspaceindustries.com.
   Nothing about you is sent anywhere.
-- The MineRunner tab only looks at the box you picked on your screen, using
+- The Mining tab only looks at the box you picked on your screen, using
   the text reader built into Windows, and never touches the game. It needs an
   English text-reader language in Windows (Settings > Time & language >
   Language & region); most PCs already have it. Parts a player keeps private show as "-".
+- The Hauling tab gets places and distances from UEX Corp (uexcorp.space), a
+  public Star Citizen trade site, once a week. Nothing about you is sent.
 - The Inventory tab only reads the game's log file (Game.log in the game's
   LIVE folder) to see where you last opened your inventory. It never changes
   anything in the game. If it can't find the log, use Tools > Find the game's
   log file. Your inventory is kept in %APPDATA%\StarRunner\inventory.txt.
-- The LangRunner tab only writes to the game's language folder when you click
+- The Language Packs tab only writes to the game's language folder when you click
   Save to game (and it backs up the old file first). Language packs come
   from public GitHub pages; nothing about you is sent.
 - RSI has no official lookup service, so if RSI changes its web page some
   details may come up blank.
-- Your recent lookups, settings and the MineRunner signature table are kept in
-  %APPDATA%\StarRunner. LangRunner changes files and downloaded packs are kept
+- Your recent lookups, settings and the Mining signature table are kept in
+  %APPDATA%\StarRunner. Language Packs changes files and downloaded packs are kept
   in Documents\LangRunner, and your notes in Documents\StarRunner Notes.
 - Updates: a few seconds after it starts, StarRunner checks GitHub for a newer
   version (it only reads the public release page; nothing is sent). If there
