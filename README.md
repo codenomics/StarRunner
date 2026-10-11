@@ -8,9 +8,9 @@
 
 **Latest version: v1.8** (Oct 11, 2026)
 
-- [StarRunner_v1.8_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_no-install.zip) - 552 KB
-- [StarRunner_v1.8_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_Setup.exe) - 613 KB
-- [StarRunner_v1.8_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_source.zip) - 541 KB
+- [StarRunner_v1.8_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_no-install.zip) - 555 KB
+- [StarRunner_v1.8_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_Setup.exe) - 616 KB
+- [StarRunner_v1.8_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_source.zip) - 545 KB
 
 What's new in v1.8:
 
@@ -24,7 +24,9 @@ What's new in v1.8:
 - Hauling: with the cargo map on, if the boxes don't fit the grid the route adds another trip
 - Cargo map: drag a box onto another to stack it, or onto an empty spot to put it on the floor
 - Hauling: contracts you accept in game are offered to add (from Game.log), and finished ones ask before checking off their stops
-- New looks on the Home tab: lighter ones (Dusk, Slate, Daylight, Paper) and ship maker looks (Aegis, Anvil, Argo, Banu, Consolidated Outland, Crusader, Drake, Esperia, MISC, Origin, RSI, Aopoa)
+- New Themes window (button at the top and on the Home tab) with previews of every look
+- Ship maker looks from their cockpit screens: Aegis, Aopoa, Argo, Banu Souli, Crusader, Drake, Esperia, Gatac, Grey's Market, Kruger, MISC, Origin and RSI (Drake and Grey's Market look like an old, worn monitor)
+- The old Ocean, Ember, Forest and Graphite looks are gone; the original look is now called Runner
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -95,9 +97,11 @@ USING IT
 - Click a tab at the top to switch tools. StarRunner remembers the tab you
   had open. Drag a tab sideways to put the tabs in your own order. The window
   can be resized and maximized.
-- Home tab: a quick look at each tool, plus a Look picker with five color
-  looks (Synthwave, Ocean, Ember, Forest, Graphite). Pick one and click
-  Restart now to use it.
+- Home tab: a quick look at each tool and the look in use.
+- Themes (button at the top, or Themes... on the Home tab): previews of every
+  look - Runner, plus looks from the ship makers' cockpit screens (Aegis,
+  Aopoa, Argo, Banu Souli, Crusader, Drake, Esperia, Gatac, Grey's Market,
+  Kruger, MISC, Origin, RSI). Pick one and click Restart now to use it.
 - Citizens tab: type a player's handle (the name in the address of their
   RSI profile) and press Enter or click Look up.
 - Mining tab:
