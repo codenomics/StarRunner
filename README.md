@@ -6,20 +6,19 @@
 
 ## Download
 
-**Latest version: v2.0** (Oct 12, 2026)
+**Latest version: v2.1** (Oct 12, 2026)
 
-- [StarRunner_v2.0_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.0/StarRunner_v2.0_no-install.zip) - 586 KB
-- [StarRunner_v2.0_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.0/StarRunner_v2.0_Setup.exe) - 645 KB
-- [StarRunner_v2.0_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.0/StarRunner_v2.0_source.zip) - 573 KB
+- [StarRunner_v2.1_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.1/StarRunner_v2.1_no-install.zip) - 602 KB
+- [StarRunner_v2.1_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.1/StarRunner_v2.1_Setup.exe) - 661 KB
+- [StarRunner_v2.1_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.1/StarRunner_v2.1_source.zip) - 591 KB
 
-What's new in v2.0:
+What's new in v2.1:
 
-- New Blueprints tab: the blueprints you have (picked up from the game logs when you receive one, plus any you add by hand) and the ingredients each takes to craft, from the Star Citizen Wiki. Sorted into categories you can fold away, and you can make your own categories
-- Home tab: RSI server status at the top, checked every 10 minutes, with a link to the status page
-- Home tab: your total play time from the game logs, with this week and today. It keeps counting after patches
-- Turn off the tabs you don't use (Home tab > Turn tabs on or off...)
-- New HCN Radio tab: listen to HCN Radio's fan-made Star Citizen stations right inside StarRunner, with station covers and what's playing now. It keeps playing while you use the other tabs. Shared with permission from HCN Radio - go check them out at hcnradio.com
-- New HCN Radio theme, based on hcnradio.com (Themes, next to Runner)
+- HCN Radio: a mini player that looks like a ship radio (Mini player button). It stays on top, shows the station picture and song, and has play/stop, station up/down and volume. Three shapes (wide, tall, small) with the size button, and drag its corner to make it bigger or smaller
+- HCN Radio: sound modes like HCN's receiver - Direct, FM, AM and SW (shortwave), with real radio hiss, hum, crackle and fading
+- Hauling: a mini window with just the stop you're flying to (Mini window button). the check button checks it off in the route and shows the next stop; the arrow undoes it. Three shapes (wide, tall with the next stops, one-line strip) and it scales by dragging its corner
+- Home tab: set how see-through the pop-out windows are
+- Hauling: Green Imperial Housing Exchange is now called GrimHex
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -180,6 +179,13 @@ USING IT
      the floor), right-click to turn it. You usually only see the box sizes at the
      freight elevator: click the boxes button on that stop in the route and
      type them there.
+  7. Mini window (top right): a small window with just the stop you're
+     flying to. The check button next to the place checks it off (in the
+     route too) and shows the next stop; the curved arrow at the top
+     undoes the last one. The size button switches between wide, tall
+     (also shows the next stops) and a one-line strip; drag the bottom-right
+     corner to make it bigger or smaller. It stays on top of other windows; for
+     it to show over Star Citizen, run the game in Borderless mode.
 - Blueprints tab:
   1. Blueprints you receive in game are added by themselves (StarRunner
      reads them from the game's log files, including older ones). Opening
@@ -200,6 +206,13 @@ USING IT
   won't play, Open in browser plays it on hcnradio.com instead. HCN Radio is
   a free community project shared here with their permission: visit
   hcnradio.com and join their Discord to support them.
+  Sound: Direct plays it as it comes; FM, AM and SW (shortwave) make it
+  sound like a real ship radio, with hiss, hum, crackle and fading.
+  Mini player: a small ship radio that stays on top of your other windows
+  (drag it anywhere; the pin turns staying on top on or off). The size
+  button next to the pin switches between wide, tall and small, and
+  dragging its bottom-right corner makes it bigger or smaller. How
+  see-through the pop-out windows are is set on the Home tab.
 - HCN Radio theme: in Themes, next to Runner, the look of hcnradio.com.
 
 GOOD TO KNOW
