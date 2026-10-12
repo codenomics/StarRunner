@@ -6,16 +6,20 @@
 
 ## Download
 
-**Latest version: v1.9** (Oct 12, 2026)
+**Latest version: v2.0** (Oct 12, 2026)
 
-- [StarRunner_v1.9_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.9/StarRunner_v1.9_no-install.zip) - 557 KB
-- [StarRunner_v1.9_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.9/StarRunner_v1.9_Setup.exe) - 617 KB
-- [StarRunner_v1.9_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.9/StarRunner_v1.9_source.zip) - 547 KB
+- [StarRunner_v2.0_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.0/StarRunner_v2.0_no-install.zip) - 586 KB
+- [StarRunner_v2.0_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.0/StarRunner_v2.0_Setup.exe) - 645 KB
+- [StarRunner_v2.0_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.0/StarRunner_v2.0_source.zip) - 573 KB
 
-What's new in v1.9:
+What's new in v2.0:
 
-- Fixed buttons and list text flickering or not showing until you moved the mouse over them (worst with the Drake and Grey's Market looks)
-- The scanlines of the Drake and Grey's Market looks now also show in StarRunner's smaller windows
+- New Blueprints tab: the blueprints you have (picked up from the game logs when you receive one, plus any you add by hand) and the ingredients each takes to craft, from the Star Citizen Wiki. Sorted into categories you can fold away, and you can make your own categories
+- Home tab: RSI server status at the top, checked every 10 minutes, with a link to the status page
+- Home tab: your total play time from the game logs, with this week and today. It keeps counting after patches
+- Turn off the tabs you don't use (Home tab > Turn tabs on or off...)
+- New HCN Radio tab: listen to HCN Radio's fan-made Star Citizen stations right inside StarRunner, with station covers and what's playing now. It keeps playing while you use the other tabs. Shared with permission from HCN Radio - go check them out at hcnradio.com
+- New HCN Radio theme, based on hcnradio.com (Themes, next to Runner)
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -56,7 +60,10 @@ edits so they can be put back on every new version. The Notes tab is a light
 notepad: a list of notes on the left and the text on the right. The Inventory
 tab keeps track of what you have stored where, across the universe, and knows
 where you last opened your inventory in game. The Hauling tab works out the
-best order to fly your cargo contracts.
+best order to fly your cargo contracts. The Blueprints tab lists the
+blueprints you have and what each takes to craft. The HCN Radio tab plays
+HCN Radio's fan-made Star Citizen stations. The Home tab also shows
+the RSI server status and your total play time.
 
 
 GETTING STARTED
@@ -86,7 +93,12 @@ USING IT
 - Click a tab at the top to switch tools. StarRunner remembers the tab you
   had open. Drag a tab sideways to put the tabs in your own order. The window
   can be resized and maximized.
-- Home tab: a quick look at each tool and the look in use.
+- Home tab: a quick look at each tool and the look in use, the RSI server
+  status (checked every 10 minutes; "Status page" opens the full page) and
+  your play time: the total since your earliest game log entry, this week and today.
+  It keeps counting after patches, even once the game deletes old logs.
+  Tabs you don't use can be turned off with "Turn tabs on or off..." under
+  the tool list (nothing in them is deleted); Turn on brings one back.
 - Themes (button at the top, or Themes... on the Home tab): previews of every
   look - Runner, plus looks from the ship makers' cockpit screens (Aegis,
   Aopoa, Argo, Banu Souli, Crusader, Drake, Esperia, Gatac, Grey's Market,
@@ -168,6 +180,27 @@ USING IT
      the floor), right-click to turn it. You usually only see the box sizes at the
      freight elevator: click the boxes button on that stop in the route and
      type them there.
+- Blueprints tab:
+  1. Blueprints you receive in game are added by themselves (StarRunner
+     reads them from the game's log files, including older ones). Opening
+     the crafter doesn't show up in the logs, so add any it missed with
+     Add blueprint (pick it from the list or type its name).
+  2. Blueprints are sorted into categories (Armor, FPS Weapons, Ship
+     Components and so on). Click a category heading to fold it away or open
+     it. To move a blueprint to another category, or make your own, click it
+     and then Category... on the right.
+  3. Click a blueprint to see its ingredients, craft time and what you get
+     back from dismantling it.
+  4. "All blueprints" shows every blueprint in the game. Click "I have this"
+     to put one on your list, or "Remove from my list" to take it off.
+
+- HCN Radio tab: click a station on the left to tune in (click it again, the
+  big cover or Stop to stop; the space bar works too). It keeps playing while
+  you use the other tabs. The volume is next to the Play button. If a station
+  won't play, Open in browser plays it on hcnradio.com instead. HCN Radio is
+  a free community project shared here with their permission: visit
+  hcnradio.com and join their Discord to support them.
+- HCN Radio theme: in Themes, next to Runner, the look of hcnradio.com.
 
 GOOD TO KNOW
 ------------
@@ -183,6 +216,15 @@ GOOD TO KNOW
   LIVE folder) to see where you last opened your inventory. It never changes
   anything in the game. If it can't find the log, use Tools > Find the game's
   log file. Your inventory is kept in %APPDATA%\StarRunner\inventory.txt.
+- The Blueprints tab gets the recipes from the Star Citizen Wiki
+  (api.star-citizen.wiki) once a week. Your blueprints and play time come
+  from the game's log files and are kept in %APPDATA%\StarRunner. The RSI
+  status comes from status.robertsspaceindustries.com. Nothing about you
+  is sent.
+- The HCN Radio tab plays HCN Radio's streams and gets what's playing and
+  the station pictures from hcnradio.com. HCN Radio is run by HLN
+  Corporation and is not part of StarRunner; the streams, pictures and logo
+  are theirs. Nothing about you is sent.
 - The Language Packs tab only writes to the game's language folder when you click
   Save to game (and it backs up the old file first). Language packs come
   from public GitHub pages; nothing about you is sent.
