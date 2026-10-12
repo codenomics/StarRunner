@@ -6,27 +6,16 @@
 
 ## Download
 
-**Latest version: v1.8** (Oct 11, 2026)
+**Latest version: v1.9** (Oct 12, 2026)
 
-- [StarRunner_v1.8_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_no-install.zip) - 555 KB
-- [StarRunner_v1.8_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_Setup.exe) - 616 KB
-- [StarRunner_v1.8_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.8/StarRunner_v1.8_source.zip) - 545 KB
+- [StarRunner_v1.9_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v1.9/StarRunner_v1.9_no-install.zip) - 557 KB
+- [StarRunner_v1.9_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v1.9/StarRunner_v1.9_Setup.exe) - 617 KB
+- [StarRunner_v1.9_source.zip](https://github.com/codenomics/StarRunner/releases/download/v1.9/StarRunner_v1.9_source.zip) - 547 KB
 
-What's new in v1.8:
+What's new in v1.9:
 
-- Hauling: checked-off stops stay as they are - adding or removing a contract only re-plans the rest of the route, starting from your last checked stop (and checks are remembered when you close StarRunner)
-- Hauling: total pay of your contracts under the list, with how much you have earned so far
-- Hauling: "Hold Size" on each stop, in a tighter font
-- Hauling: contracts with several pick-ups or drop-offs - add a line for each, with its own SCU, and the route plans them all
-- Hauling: type the boxes at each pick-up stop in the route (the freight elevator shows them when you get there)
-- Place fields empty when you click them so you can just type; click away to keep the old place
-- Cargo map: tighter packing - big boxes line up and small boxes stack together, so a full hold fits
-- Hauling: with the cargo map on, if the boxes don't fit the grid the route adds another trip
-- Cargo map: drag a box onto another to stack it, or onto an empty spot to put it on the floor
-- Hauling: contracts you accept in game are offered to add (from Game.log), and finished ones ask before checking off their stops
-- New Themes window (button at the top and on the Home tab) with previews of every look
-- Ship maker looks from their cockpit screens: Aegis, Aopoa, Argo, Banu Souli, Crusader, Drake, Esperia, Gatac, Grey's Market, Kruger, MISC, Origin and RSI (Drake and Grey's Market look like an old, worn monitor)
-- The old Ocean, Ember, Forest and Graphite looks are gone; the original look is now called Runner
+- Fixed buttons and list text flickering or not showing until you moved the mouse over them (worst with the Drake and Grey's Market looks)
+- The scanlines of the Drake and Grey's Market looks now also show in StarRunner's smaller windows
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
