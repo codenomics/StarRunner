@@ -1,26 +1,36 @@
 # StarRunner
 
+All your Star Citizen tools in one window. StarRunner puts player lookups, mining scans, hauling routes, your inventory, blueprints, language packs, notes and a ship radio side by side in tabs, so you can keep one app open next to the game instead of a pile of websites and spreadsheets.
+
+### Features
+
+- Hauling: type in your cargo contracts and get the best order to pick up and drop off, with gateway jumps and big contracts split into trips that fit your ship. Save routes and contracts, check off stops with a key while you play (F8), and keep a small on-top window with your next stop.
+- Cargo map (optional): see where every box sits in your ship's hold at each stop, and move or stack them yourself.
+- Mining: reads the scan number off your screen and shows which rock it is in a small see-through overlay.
+- Inventory: keeps track of what you have stored where, across the universe, and knows where you last opened your inventory in game.
+- Blueprints: adds the blueprints you receive in game by itself and shows what each one takes to craft.
+- Citizens: look up any player by their handle and see their public RSI profile, organizations and rank.
+- Language Packs: edit the game's language file and put your edits back after every patch.
+- Notes: a light notepad that saves by itself.
+- HCN Radio: plays HCN Radio's fan-made Star Citizen stations, with ship radio sound effects and a small on-top player.
+- Home: RSI server status, your play time, and looks from the ship makers' cockpit screens (Aegis, Drake, Origin, RSI and more).
+- Turn off the tabs you don't use, and it keeps itself up to date.
+
 > This application is built by AI. I made this for myself and I'm uploading it to GitHub for backup and to share in case anyone can get any use out of it. It's pretty specific to my setup and my needs, but if you can get any use out of it, then enjoy.
 >
 > Use at your own risk. I offer no warranty or guarantees for this software.
 
 ## Download
 
-**Latest version: v2.2** (Oct 13, 2026)
+**Latest version: v2.4** (Oct 13, 2026)
 
-- [StarRunner_v2.2_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.2/StarRunner_v2.2_no-install.zip) - 615 KB
-- [StarRunner_v2.2_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.2/StarRunner_v2.2_Setup.exe) - 673 KB
-- [StarRunner_v2.2_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.2/StarRunner_v2.2_source.zip) - 603 KB
+- [StarRunner_v2.4_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.4/StarRunner_v2.4_no-install.zip) - 616 KB
+- [StarRunner_v2.4_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.4/StarRunner_v2.4_Setup.exe) - 674 KB
+- [StarRunner_v2.4_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.4/StarRunner_v2.4_source.zip) - 604 KB
 
-What's new in v2.2:
+What's new in v2.4:
 
-- Hauling: when you check off a step (in the route or in the small window), the next step is selected so the cargo map shows it
-- Hauling: new Loaded off grid check box on a pick-up that has a trip back for the rest - tick it when you fit the whole load aboard and the extra trip is taken out of the route
-- Hauling: new Saved routes button - save your contracts with their box sizes, ship and start place under a name, and load them back later
-- Hauling: new disk icon on each contract and a Saved contracts button - save a contract with its box sizes and add it to your list again
-- Hauling: new check-off key (F8 to start with) - press it while you play to check off the current step; change it with the Check-off key button under the route
-- Hauling: new My places button (above the start place) - add a place that is missing from the list, next to the closest place that is there
-- Hauling: the questions about contracts you accept in game are switched off for now (they came up too often)
+No notes for this version.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -47,26 +57,6 @@ Want to see how it works, or build it yourself? Download the file ending in `_so
 ## More details
 
 ```
-STARRUNNER
-==========
-
-All your Star Citizen tools in one window, with a tab for each tool.
-The Citizens tab looks up a Star Citizen player by their handle and shows
-their public RSI profile: avatar, citizen record number, enlisted date,
-location, fluency, badge, organizations (with their rank) and bio.
-The Mining tab reads the mining scan number off your screen in Star
-Citizen and shows which rock it is in a small see-through overlay.
-The Language Packs tab edits the game's language file (global.ini) and keeps your
-edits so they can be put back on every new version. The Notes tab is a light
-notepad: a list of notes on the left and the text on the right. The Inventory
-tab keeps track of what you have stored where, across the universe, and knows
-where you last opened your inventory in game. The Hauling tab works out the
-best order to fly your cargo contracts. The Blueprints tab lists the
-blueprints you have and what each takes to craft. The HCN Radio tab plays
-HCN Radio's fan-made Star Citizen stations. The Home tab also shows
-the RSI server status and your total play time.
-
-
 GETTING STARTED
 ---------------
 Pick one. Both give you the same app.
@@ -106,6 +96,10 @@ USING IT
   Kruger, MISC, Origin, RSI). Pick one and click Restart now to use it.
 - Citizens tab: type a player's handle (the name in the address of their
   RSI profile) and press Enter or click Look up.
+  Click any name in the Recent list to look that player up again. Their
+  organizations are listed with the player's rank in each; click one to see
+  its Overview, History, Manifesto, Charter and a Members list. "Open on
+  RSI website" opens their page in your browser.
 - Mining tab:
   1. Click Pick area, switch to the game and scan a rock so the number shows.
      After 5 seconds the screen freezes - drag a box around the number.
@@ -141,10 +135,6 @@ USING IT
      Right-click a place to rename it, make it your home, or remove it.
   5. Tools: Set home location, Move everything home (after a patch moves your
      stuff), Back up / Load a backup, Item colors and Clear all.
-- Click any name in the Recent list to look that player up again.
-- Their organizations are listed with the player's rank in each. Click one
-  to see its Overview, History, Manifesto, Charter and a Members list.
-- "Open on RSI website" opens their page in your browser.
 
 
 - Hauling tab:
@@ -165,11 +155,11 @@ USING IT
      Under the contracts you see the total pay (from the rewards you typed)
      and how much you have earned so far.
   4. Ship list: type part of a name to find it. My ships... adds your own.
-  5. Contracts from the game: when you accept a hauling contract in game,
-     StarRunner offers to add it (with the places, and the SCU when the game
-     logs it - check it and add the reward). When the game says a contract is
-     complete, it asks before checking off its stops. It only reads Game.log
-     and only asks while you're looking at the Hauling tab.
+  5. Saved routes... keeps a whole route (ship, start and contracts) to load
+     again later. The disk button on a contract saves just that one, and
+     Saved contracts... adds it back to the list.
+     Check-off key: press F8 while you play to check off the stop you're at
+     (click "Check-off key: F8" to pick another key or turn it off).
   6. Cargo map (optional): check "Show the cargo map", pick your ship and click
      Edit grid to draw its cargo hold once (squares across, long and high, and
      the ramp edge). In each contract you can type the boxes the freight
