@@ -6,19 +6,21 @@
 
 ## Download
 
-**Latest version: v2.1** (Oct 12, 2026)
+**Latest version: v2.2** (Oct 13, 2026)
 
-- [StarRunner_v2.1_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.1/StarRunner_v2.1_no-install.zip) - 602 KB
-- [StarRunner_v2.1_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.1/StarRunner_v2.1_Setup.exe) - 661 KB
-- [StarRunner_v2.1_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.1/StarRunner_v2.1_source.zip) - 591 KB
+- [StarRunner_v2.2_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.2/StarRunner_v2.2_no-install.zip) - 615 KB
+- [StarRunner_v2.2_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.2/StarRunner_v2.2_Setup.exe) - 673 KB
+- [StarRunner_v2.2_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.2/StarRunner_v2.2_source.zip) - 603 KB
 
-What's new in v2.1:
+What's new in v2.2:
 
-- HCN Radio: a mini player that looks like a ship radio (Mini player button). It stays on top, shows the station picture and song, and has play/stop, station up/down and volume. Three shapes (wide, tall, small) with the size button, and drag its corner to make it bigger or smaller
-- HCN Radio: sound modes like HCN's receiver - Direct, FM, AM and SW (shortwave), with real radio hiss, hum, crackle and fading
-- Hauling: a mini window with just the stop you're flying to (Mini window button). the check button checks it off in the route and shows the next stop; the arrow undoes it. Three shapes (wide, tall with the next stops, one-line strip) and it scales by dragging its corner
-- Home tab: set how see-through the pop-out windows are
-- Hauling: Green Imperial Housing Exchange is now called GrimHex
+- Hauling: when you check off a step (in the route or in the small window), the next step is selected so the cargo map shows it
+- Hauling: new Loaded off grid check box on a pick-up that has a trip back for the rest - tick it when you fit the whole load aboard and the extra trip is taken out of the route
+- Hauling: new Saved routes button - save your contracts with their box sizes, ship and start place under a name, and load them back later
+- Hauling: new disk icon on each contract and a Saved contracts button - save a contract with its box sizes and add it to your list again
+- Hauling: new check-off key (F8 to start with) - press it while you play to check off the current step; change it with the Check-off key button under the route
+- Hauling: new My places button (above the start place) - add a place that is missing from the list, next to the closest place that is there
+- Hauling: the questions about contracts you accept in game are switched off for now (they came up too often)
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
