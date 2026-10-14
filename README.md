@@ -22,15 +22,17 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v2.4** (Oct 13, 2026)
+**Latest version: v2.5** (Oct 14, 2026)
 
-- [StarRunner_v2.4_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.4/StarRunner_v2.4_no-install.zip) - 616 KB
-- [StarRunner_v2.4_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.4/StarRunner_v2.4_Setup.exe) - 674 KB
-- [StarRunner_v2.4_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.4/StarRunner_v2.4_source.zip) - 604 KB
+- [StarRunner_v2.5_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.5/StarRunner_v2.5_no-install.zip) - 617 KB
+- [StarRunner_v2.5_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.5/StarRunner_v2.5_Setup.exe) - 675 KB
+- [StarRunner_v2.5_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.5/StarRunner_v2.5_source.zip) - 605 KB
 
-What's new in v2.4:
+What's new in v2.5:
 
-No notes for this version.
+- Play time now counts every game version it finds: Live, Hotfix, PTU and EPTU. The big number is the total, with the time per version underneath.
+- Play time is kept even after a test version is uninstalled and its logs are gone.
+- Blueprints are only tracked from Live and Hotfix, since PTU and EPTU blueprints do not carry over.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
