@@ -22,15 +22,15 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v2.6** (Oct 16, 2026)
+**Latest version: v2.7** (Oct 17, 2026)
 
-- [StarRunner_v2.6_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.6/StarRunner_v2.6_no-install.zip) - 621 KB
-- [StarRunner_v2.6_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.6/StarRunner_v2.6_Setup.exe) - 679 KB
-- [StarRunner_v2.6_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.6/StarRunner_v2.6_source.zip) - 608 KB
+- [StarRunner_v2.7_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.7/StarRunner_v2.7_no-install.zip) - 621 KB
+- [StarRunner_v2.7_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.7/StarRunner_v2.7_Setup.exe) - 679 KB
+- [StarRunner_v2.7_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.7/StarRunner_v2.7_source.zip) - 608 KB
 
-What's new in v2.6:
+What's new in v2.7:
 
-- Hauling Locations added and cleaned up
+- Adjusted Inventory categories
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
