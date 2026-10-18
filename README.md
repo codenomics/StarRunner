@@ -7,6 +7,7 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 - Hauling: type in your cargo contracts and get the best order to pick up and drop off, with gateway jumps and big contracts split into trips that fit your ship. Save routes and contracts, check off stops with a key while you play (F8), and keep a small on-top window with your next stop.
 - Cargo map (optional): see where every box sits in your ship's hold at each stop, and move or stack them yourself.
 - Mining: reads the scan number off your screen and shows which rock it is in a small see-through overlay.
+- Refinery: press a key at the refinery terminal and it reads the station and the time left off the screen and starts a timer, with a sound when the order is done. You can also add timers by hand.
 - Inventory: keeps track of what you have stored where, across the universe, and knows where you last opened your inventory in game.
 - Blueprints: adds the blueprints you receive in game by itself and shows what each one takes to craft.
 - Citizens: look up any player by their handle and see their public RSI profile, organizations and rank.
@@ -22,15 +23,18 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v2.7** (Oct 17, 2026)
+**Latest version: v2.8** (Oct 18, 2026)
 
-- [StarRunner_v2.7_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.7/StarRunner_v2.7_no-install.zip) - 621 KB
-- [StarRunner_v2.7_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.7/StarRunner_v2.7_Setup.exe) - 679 KB
-- [StarRunner_v2.7_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.7/StarRunner_v2.7_source.zip) - 608 KB
+- [StarRunner_v2.8_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.8/StarRunner_v2.8_no-install.zip) - 628 KB
+- [StarRunner_v2.8_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.8/StarRunner_v2.8_Setup.exe) - 685 KB
+- [StarRunner_v2.8_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.8/StarRunner_v2.8_source.zip) - 617 KB
 
-What's new in v2.7:
+What's new in v2.8:
 
-- Adjusted Inventory categories
+- New Refinery tab: press a key at the refinery terminal and StarRunner reads the station and the time left off the screen and starts a timer.
+- Refinery timers sound an alert when they finish, keep running side by side, and are saved between sessions.
+- You can also add refinery timers by hand, and pick the key that reads the terminal.
+- On the Home tab, each tool now has a Hide / Show button instead of Open and the separate tabs window. Refinery is in the list too.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -88,8 +92,8 @@ USING IT
   status (checked every 10 minutes; "Status page" opens the full page) and
   your play time: the total since your earliest game log entry, this week and today.
   It keeps counting after patches, even once the game deletes old logs.
-  Tabs you don't use can be turned off with "Turn tabs on or off..." under
-  the tool list (nothing in them is deleted); Turn on brings one back.
+  Tabs you don't use can be hidden with the Hide button next to each tool
+  (nothing in them is deleted); Show brings one back.
 - Themes (button at the top, or Themes... on the Home tab): previews of every
   look - Runner, plus looks from the ship makers' cockpit screens (Aegis,
   Aopoa, Argo, Banu Souli, Crusader, Drake, Esperia, Gatac, Grey's Market,
@@ -178,6 +182,21 @@ USING IT
      (also shows the next stops) and a one-line strip; drag the bottom-right
      corner to make it bigger or smaller. It stays on top of other windows; for
      it to show over Star Citizen, run the game in Borderless mode.
+- Refinery tab:
+  1. Start a refinery work order in the game. On the terminal's PROCESSING
+     screen (the one that says TIME REMAINING), press the refinery key
+     (F9 to start with; the Key button changes it). StarRunner reads the
+     station, the work order, the materials and the time left, and starts a
+     timer. The key works while the game is in front, so run the game in
+     Borderless or Windowed mode.
+  2. No key handy? Click Read the screen, switch to the game, and it reads
+     the screen five seconds later.
+  3. Press the key again on the same order to correct the time. Timers
+     for different stations or work orders run side by side.
+  4. Add by hand starts a timer from text like: Seraphim Station, 1h 30m.
+     The x on a timer removes it; Clear finished removes all done ones.
+  5. A sound plays when a timer finishes. Timers are kept when you close
+     StarRunner, but you only get the sound while it is open.
 - Blueprints tab:
   1. Blueprints you receive in game are added by themselves (StarRunner
      reads them from the game's log files, including older ones). Opening
@@ -215,6 +234,10 @@ GOOD TO KNOW
   the text reader built into Windows, and never touches the game. It needs an
   English text-reader language in Windows (Settings > Time & language >
   Language & region); most PCs already have it. Parts a player keeps private show as "-".
+- The Refinery tab only looks at your screen when you press its key (or the
+  button) and reads it with the text reader built into Windows. The picture
+  is not saved or sent anywhere. Timers are kept in
+  %APPDATA%\StarRunner\refinery.txt.
 - The Hauling tab gets places and distances from UEX Corp (uexcorp.space), a
   public Star Citizen trade site, once a week. Nothing about you is sent.
 - The Inventory tab only reads the game's log file (Game.log in the game's
