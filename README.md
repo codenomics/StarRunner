@@ -23,18 +23,15 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v2.9** (Oct 19, 2026)
+**Latest version: v3.0** (Oct 19, 2026)
 
-- [StarRunner_v2.9_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.9/StarRunner_v2.9_no-install.zip) - 629 KB
-- [StarRunner_v2.9_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.9/StarRunner_v2.9_Setup.exe) - 686 KB
-- [StarRunner_v2.9_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.9/StarRunner_v2.9_source.zip) - 618 KB
+- [StarRunner_v3.0_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.0/StarRunner_v3.0_no-install.zip) - 629 KB
+- [StarRunner_v3.0_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.0/StarRunner_v3.0_Setup.exe) - 686 KB
+- [StarRunner_v3.0_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.0/StarRunner_v3.0_source.zip) - 618 KB
 
-What's new in v2.9:
+What's new in v3.0:
 
-- The refinery timers now sit on the right side of the Mining tab (there is no separate Refinery tab any more).
-- Mining tab: the reading box and rock name are in an Overlay section on the left. Start reading and the start-at-launch check box are right under it.
-- New Overlay settings window for the overlay's colors, size, how long it stays and where it sits. The overlay can still be moved while it is open.
-- Inventory: Green Imperial Housing Exchange now shows as GrimHex.
+- Inventory: the All items view is now read only, even for something stored in just one place. Double-click a row to jump to where it is.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -133,7 +130,8 @@ USING IT
      Add, or Add + next to keep going. With SCU you can also type how many
      cargo boxes and their size (for example 8 x 8 SCU) and it works out the total.
   2. Your places are listed on the left by system and planet. Click one to
-     see what's there. All items adds up the same things across every place.
+     see what's there. All items adds up the same things across every place and is
+     read only (double-click a row to jump to where it is).
   3. The search box looks through every place at once. Double-click a result
      to go there.
   4. Each item has small buttons: -1 and +1 to change the amount quickly,
