@@ -7,7 +7,7 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 - Hauling: type in your cargo contracts and get the best order to pick up and drop off, with gateway jumps and big contracts split into trips that fit your ship. Save routes and contracts, check off stops with a key while you play (F8), and keep a small on-top window with your next stop.
 - Cargo map (optional): see where every box sits in your ship's hold at each stop, and move or stack them yourself.
 - Mining: reads the scan number off your screen and shows which rock it is in a small see-through overlay.
-- Refinery: press a key at the refinery terminal and it reads the station and the time left off the screen and starts a timer, with a sound when the order is done. You can also add timers by hand.
+- Refinery timers (on the right of the Mining tab): press a key at the refinery terminal and it reads the station and the time left off the screen and starts a timer, with a sound when the order is done. You can also add timers by hand.
 - Inventory: keeps track of what you have stored where, across the universe, and knows where you last opened your inventory in game.
 - Blueprints: adds the blueprints you receive in game by itself and shows what each one takes to craft.
 - Citizens: look up any player by their handle and see their public RSI profile, organizations and rank.
@@ -23,18 +23,18 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v2.8** (Oct 18, 2026)
+**Latest version: v2.9** (Oct 19, 2026)
 
-- [StarRunner_v2.8_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.8/StarRunner_v2.8_no-install.zip) - 628 KB
-- [StarRunner_v2.8_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.8/StarRunner_v2.8_Setup.exe) - 685 KB
-- [StarRunner_v2.8_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.8/StarRunner_v2.8_source.zip) - 617 KB
+- [StarRunner_v2.9_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v2.9/StarRunner_v2.9_no-install.zip) - 629 KB
+- [StarRunner_v2.9_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v2.9/StarRunner_v2.9_Setup.exe) - 686 KB
+- [StarRunner_v2.9_source.zip](https://github.com/codenomics/StarRunner/releases/download/v2.9/StarRunner_v2.9_source.zip) - 618 KB
 
-What's new in v2.8:
+What's new in v2.9:
 
-- New Refinery tab: press a key at the refinery terminal and StarRunner reads the station and the time left off the screen and starts a timer.
-- Refinery timers sound an alert when they finish, keep running side by side, and are saved between sessions.
-- You can also add refinery timers by hand, and pick the key that reads the terminal.
-- On the Home tab, each tool now has a Hide / Show button instead of Open and the separate tabs window. Refinery is in the list too.
+- The refinery timers now sit on the right side of the Mining tab (there is no separate Refinery tab any more).
+- Mining tab: the reading box and rock name are in an Overlay section on the left. Start reading and the start-at-launch check box are right under it.
+- New Overlay settings window for the overlay's colors, size, how long it stays and where it sits. The overlay can still be moved while it is open.
+- Inventory: Green Imperial Housing Exchange now shows as GrimHex.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -111,7 +111,9 @@ USING IT
   2. Click Start reading. The overlay shows e.g. "3x Titanium" while the
      number is on screen. It keeps working while you use the other tabs.
   The Signatures button opens the table of scan numbers (you can fix or add
-  values after game updates). Press F1 for more help.
+  values after game updates). Overlay settings opens a window for the
+  overlay's colors, size, how long it stays and where it sits. Press F1 for
+  more help.
 - Language Packs tab:
   1. Click Choose language file (or drag a global.ini onto the window). "Get
      newest" downloads a community language pack from GitHub.
@@ -182,7 +184,7 @@ USING IT
      (also shows the next stops) and a one-line strip; drag the bottom-right
      corner to make it bigger or smaller. It stays on top of other windows; for
      it to show over Star Citizen, run the game in Borderless mode.
-- Refinery tab:
+- Refinery timers (right side of the Mining tab):
   1. Start a refinery work order in the game. On the terminal's PROCESSING
      screen (the one that says TIME REMAINING), press the refinery key
      (F9 to start with; the Key button changes it). StarRunner reads the
@@ -234,7 +236,7 @@ GOOD TO KNOW
   the text reader built into Windows, and never touches the game. It needs an
   English text-reader language in Windows (Settings > Time & language >
   Language & region); most PCs already have it. Parts a player keeps private show as "-".
-- The Refinery tab only looks at your screen when you press its key (or the
+- The refinery timers only look at your screen when you press their key (or the
   button) and reads it with the text reader built into Windows. The picture
   is not saved or sent anywhere. Timers are kept in
   %APPDATA%\StarRunner\refinery.txt.
