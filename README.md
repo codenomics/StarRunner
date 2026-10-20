@@ -10,6 +10,7 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 - Refinery timers (on the right of the Mining tab): press a key at the refinery terminal and it reads the station and the time left off the screen and starts a timer, with a sound when the order is done. You can also add timers by hand.
 - Inventory: keeps track of what you have stored where, across the universe, and knows where you last opened your inventory in game.
 - Blueprints: adds the blueprints you receive in game by itself and shows what each one takes to craft.
+- Wikelo: lists what Wikelo trades for right now, with the items each offer needs, and shows which ones you can do from what is in your Inventory.
 - Citizens: look up any player by their handle and see their public RSI profile, organizations and rank.
 - Language Packs: edit the game's language file and put your edits back after every patch.
 - Notes: a light notepad that saves by itself.
@@ -23,15 +24,19 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v3.0** (Oct 19, 2026)
+**Latest version: v3.1** (Oct 20, 2026)
 
-- [StarRunner_v3.0_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.0/StarRunner_v3.0_no-install.zip) - 629 KB
-- [StarRunner_v3.0_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.0/StarRunner_v3.0_Setup.exe) - 686 KB
-- [StarRunner_v3.0_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.0/StarRunner_v3.0_source.zip) - 618 KB
+- [StarRunner_v3.1_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.1/StarRunner_v3.1_no-install.zip) - 644 KB
+- [StarRunner_v3.1_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.1/StarRunner_v3.1_Setup.exe) - 700 KB
+- [StarRunner_v3.1_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.1/StarRunner_v3.1_source.zip) - 633 KB
 
-What's new in v3.0:
+What's new in v3.1:
 
-- Inventory: the All items view is now read only, even for something stored in just one place. Double-click a row to jump to where it is.
+- Mining: the Overlay settings button now sits next to Start reading.
+- New Game data backup on the Home tab: copy your keybinds, characters and settings between game versions (LIVE to PTU or HOTFIX), keep dated backups in a folder you choose, and restore them. What gets replaced is saved first.
+- New Wikelo tab: see what Wikelo trades for right now, what each offer needs, which offers you can do from your Inventory, and where your items are.
+- Inventory: item names now line up with Wikelo and blueprints. The name box suggests the exact names those need, and Wikelo counts "Item" and "Item (Pristine)" as the same thing.
+- Wikelo: offers are now grouped under headings (Ships & vehicles, Armor, Weapons, Collectibles, Favors, Other) that you can fold, and long "You get" lists wrap instead of running off the screen.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -91,6 +96,12 @@ USING IT
   It keeps counting after patches, even once the game deletes old logs.
   Tabs you don't use can be hidden with the Hide button next to each tool
   (nothing in them is deleted); Show brings one back.
+- Game data backup (Home tab): copy your keybinds, custom characters and game
+  settings from one game version to another (for example LIVE into a new PTU or
+  HOTFIX), keep a dated zip backup in a folder you choose, and put a backup
+  back later. The game must be closed to copy or restore. Before anything is
+  replaced, what was there is saved in a "before changes" folder next to your
+  backups. Only your own user files are touched, never the game itself.
 - Themes (button at the top, or Themes... on the Home tab): previews of every
   look - Runner, plus looks from the ship makers' cockpit screens (Aegis,
   Aopoa, Argo, Banu Souli, Crusader, Drake, Esperia, Gatac, Grey's Market,
@@ -211,6 +222,15 @@ USING IT
   4. "All blueprints" shows every blueprint in the game. Click "I have this"
      to put one on your list, or "Remove from my list" to take it off.
 
+- Wikelo tab: the list on the left is every Wikelo offer, from the Star Citizen
+  Wiki (it downloads by itself about once a week; Refresh offers gets the
+  newest now, and it is saved so it works offline). Each offer shows a bar for
+  how much of what it needs you already have. Choose I can do now to see only
+  the ones you have everything for. Click an offer to see what it gives you,
+  every item it needs, how many you have, and every place in your Inventory
+  that holds some. Items match your Inventory by exact name (capitals and
+  spaces don't matter). Nothing is taken out of your Inventory when you do an
+  offer, and the rank is only shown, not checked.
 - HCN Radio tab: click a station on the left to tune in (click it again, the
   big cover or Stop to stop; the space bar works too). It keeps playing while
   you use the other tabs. The volume is next to the Play button. If a station
@@ -238,6 +258,13 @@ GOOD TO KNOW
   button) and reads it with the text reader built into Windows. The picture
   is not saved or sent anywhere. Timers are kept in
   %APPDATA%\StarRunner\refinery.txt.
+- Game data backup only copies your own files (keybinds, custom characters, and
+  optionally USER.cfg and the game's attributes file) inside the StarCitizen
+  folder, and zips of them in your backup folder (Documents\StarRunner Backups
+  unless you pick another). Nothing is sent anywhere.
+- The Wikelo tab downloads the list of Wikelo offers from the public Star
+  Citizen Wiki (api.star-citizen.wiki) and only reads your Inventory file.
+  Nothing about you is sent. The list is kept in %APPDATA%\StarRunner\wikelo.txt.
 - The Hauling tab gets places and distances from UEX Corp (uexcorp.space), a
   public Star Citizen trade site, once a week. Nothing about you is sent.
 - The Inventory tab only reads the game's log file (Game.log in the game's
