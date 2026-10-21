@@ -24,19 +24,17 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v3.1** (Oct 20, 2026)
+**Latest version: v3.2** (Oct 21, 2026)
 
-- [StarRunner_v3.1_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.1/StarRunner_v3.1_no-install.zip) - 644 KB
-- [StarRunner_v3.1_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.1/StarRunner_v3.1_Setup.exe) - 700 KB
-- [StarRunner_v3.1_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.1/StarRunner_v3.1_source.zip) - 633 KB
+- [StarRunner_v3.2_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.2/StarRunner_v3.2_no-install.zip) - 646 KB
+- [StarRunner_v3.2_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.2/StarRunner_v3.2_Setup.exe) - 701 KB
+- [StarRunner_v3.2_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.2/StarRunner_v3.2_source.zip) - 634 KB
 
-What's new in v3.1:
+What's new in v3.2:
 
-- Mining: the Overlay settings button now sits next to Start reading.
-- New Game data backup on the Home tab: copy your keybinds, characters and settings between game versions (LIVE to PTU or HOTFIX), keep dated backups in a folder you choose, and restore them. What gets replaced is saved first.
-- New Wikelo tab: see what Wikelo trades for right now, what each offer needs, which offers you can do from your Inventory, and where your items are.
-- Inventory: item names now line up with Wikelo and blueprints. The name box suggests the exact names those need, and Wikelo counts "Item" and "Item (Pristine)" as the same thing.
-- Wikelo: offers are now grouped under headings (Ships & vehicles, Armor, Weapons, Collectibles, Favors, Other) that you can fold, and long "You get" lists wrap instead of running off the screen.
+- Play time: StarRunner now looks for the game in more places, and the Home tab has a Find my game folder link for when the game is installed somewhere unusual.
+- Play time: if the game logs can't be read, the card now says so instead of staying on "Counting".
+- You can now pick where the game is installed (the Find my game folder link on the Home tab, or in Game data backup). Play time, Game data backup and the other tabs that read the game folder all use it.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
