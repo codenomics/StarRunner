@@ -24,17 +24,17 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v3.2** (Oct 21, 2026)
+**Latest version: v3.3** (Oct 24, 2026)
 
-- [StarRunner_v3.2_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.2/StarRunner_v3.2_no-install.zip) - 646 KB
-- [StarRunner_v3.2_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.2/StarRunner_v3.2_Setup.exe) - 701 KB
-- [StarRunner_v3.2_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.2/StarRunner_v3.2_source.zip) - 634 KB
+- [StarRunner_v3.3_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.3/StarRunner_v3.3_no-install.zip) - 650 KB
+- [StarRunner_v3.3_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.3/StarRunner_v3.3_Setup.exe) - 705 KB
+- [StarRunner_v3.3_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.3/StarRunner_v3.3_source.zip) - 638 KB
 
-What's new in v3.2:
+What's new in v3.3:
 
-- Play time: StarRunner now looks for the game in more places, and the Home tab has a Find my game folder link for when the game is installed somewhere unusual.
-- Play time: if the game logs can't be read, the card now says so instead of staying on "Counting".
-- You can now pick where the game is installed (the Find my game folder link on the Home tab, or in Game data backup). Play time, Game data backup and the other tabs that read the game folder all use it.
+- The Themes button is gone from the top bar so all the tabs fit (Themes is still on the Home tab), and there is a little less space before the first tab.
+- Wikelo: remembers which groups you folded, and you can mark offers as Wanted. They collect in a Wanted group at the top and show a small note when you add something they need to your Inventory.
+- Inventory: Tools > Match names to Wikelo and blueprints renames your items to the exact spellings those use, after showing you the list, and offers to fix names that look cut off or misspelled (like "Wikelo Favo" or "Wekelo Favor") one at a time.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -92,6 +92,10 @@ USING IT
   status (checked every 10 minutes; "Status page" opens the full page) and
   your play time: the total since your earliest game log entry, this week and today.
   It keeps counting after patches, even once the game deletes old logs.
+  If the game is installed somewhere unusual (another drive, say) and no play
+  time shows, click Find my game folder on that card and pick your StarCitizen
+  folder (the one with LIVE inside). The other tabs that read the game folder
+  use it too.
   Tabs you don't use can be hidden with the Hide button next to each tool
   (nothing in them is deleted); Show brings one back.
 - Game data backup (Home tab): copy your keybinds, custom characters and game
@@ -100,7 +104,7 @@ USING IT
   back later. The game must be closed to copy or restore. Before anything is
   replaced, what was there is saved in a "before changes" folder next to your
   backups. Only your own user files are touched, never the game itself.
-- Themes (button at the top, or Themes... on the Home tab): previews of every
+- Themes (Themes... on the Home tab): previews of every
   look - Runner, plus looks from the ship makers' cockpit screens (Aegis,
   Aopoa, Argo, Banu Souli, Crusader, Drake, Esperia, Gatac, Grey's Market,
   Kruger, MISC, Origin, RSI). Pick one and click Restart now to use it.
@@ -147,7 +151,13 @@ USING IT
      then edit, move (all of it or part of a stack) and remove.
      Right-click a place to rename it, make it your home, or remove it.
   5. Tools: Set home location, Move everything home (after a patch moves your
-     stuff), Back up / Load a backup, Item colors and Clear all.
+     stuff), Back up / Load a backup, Match names to Wikelo and blueprints,
+     Item colors and Clear all.
+  6. Typing a name suggests the names Wikelo and the blueprints use. "Match
+     names to Wikelo and blueprints" renames items you already have to those
+     exact spellings (it shows you the list first). It also notices names that
+     look cut off or misspelled (like "Wikelo Favo" or "Wekelo Favor") and asks,
+     one at a time, whether to change them or leave them as they are.
 
 
 - Hauling tab:
@@ -226,9 +236,14 @@ USING IT
   how much of what it needs you already have. Choose I can do now to see only
   the ones you have everything for. Click an offer to see what it gives you,
   every item it needs, how many you have, and every place in your Inventory
-  that holds some. Items match your Inventory by exact name (capitals and
-  spaces don't matter). Nothing is taken out of your Inventory when you do an
-  offer, and the rank is only shown, not checked.
+  that holds some. Offers are grouped (Ships & vehicles, Armor, Weapons,
+  Collectibles, Favors, Other); click a group name to fold it, and StarRunner
+  remembers which ones you folded. Items match your Inventory by name (capitals,
+  spaces and a quality tag like (Pristine) don't matter). Click Mark as wanted
+  on an offer to keep it in a Wanted group at the top; when you add something
+  it needs to your Inventory, it shows a small "new items" note until you have
+  looked at it. Nothing is taken out of your Inventory when you do an offer, and
+  the rank is only shown, not checked.
 - HCN Radio tab: click a station on the left to tune in (click it again, the
   big cover or Stop to stop; the space bar works too). It keeps playing while
   you use the other tabs. The volume is next to the Play button. If a station
