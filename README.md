@@ -24,17 +24,19 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v3.3** (Oct 24, 2026)
+**Latest version: v3.5** (Nov 1, 2026)
 
-- [StarRunner_v3.3_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.3/StarRunner_v3.3_no-install.zip) - 650 KB
-- [StarRunner_v3.3_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.3/StarRunner_v3.3_Setup.exe) - 705 KB
-- [StarRunner_v3.3_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.3/StarRunner_v3.3_source.zip) - 638 KB
+- [StarRunner_v3.5_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.5/StarRunner_v3.5_no-install.zip) - 669 KB
+- [StarRunner_v3.5_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.5/StarRunner_v3.5_Setup.exe) - 723 KB
+- [StarRunner_v3.5_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.5/StarRunner_v3.5_source.zip) - 654 KB
 
-What's new in v3.3:
+What's new in v3.5:
 
-- The Themes button is gone from the top bar so all the tabs fit (Themes is still on the Home tab), and there is a little less space before the first tab.
-- Wikelo: remembers which groups you folded, and you can mark offers as Wanted. They collect in a Wanted group at the top and show a small note when you add something they need to your Inventory.
-- Inventory: Tools > Match names to Wikelo and blueprints renames your items to the exact spellings those use, after showing you the list, and offers to fix names that look cut off or misspelled (like "Wikelo Favo" or "Wekelo Favor") one at a time.
+- Inventory: when an item is in SCU the Add item window now has a line for each box size (1, 2, 4, 8, 16, 24, 32 SCU) where you type how many boxes you have; the amount is worked out and the boxes show under the item name. Leave it empty and nothing changes.
+- Inventory > All items: double-click something that is at several places to get a list of those places, then click one to open it.
+- Mining: new Ore finder on the Mining tab. Search all the ores, click one to see where it is found with percentages (planets and moons, belts, Lagrange points), or switch to Places and see which ores a place has. Open on SCMiner opens their page. The data is from scminer.rocks (credited), patch 4.10.2.
+- Mining: the Overlay is more compact and the Refinery timers now sit under it.
+- Home: new Update game data button (Game data card). It gets the newest blueprint recipes, Wikelo offers and hauling distances in one click.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -183,7 +185,9 @@ USING IT
      Saved contracts... adds it back to the list.
      Check-off key: press F8 while you play to check off the stop you're at
      (click "Check-off key: F8" to pick another key or turn it off).
-  6. Cargo map (optional): check "Show the cargo map", pick your ship and click
+  6. Cargo map (optional): check "Show the cargo map" and pick your ship. About
+     100 ships already have their cargo holds filled in (with the biggest box each
+     hold takes). If yours doesn't, or you want to add the ramp side, click
      Edit grid to draw its cargo hold once (squares across, long and high, and
      the ramp edge). In each contract you can type the boxes the freight
      elevator lists, or click the boxes button on a contract to set them
@@ -309,5 +313,11 @@ GOOD TO KNOW
   to turn the startup check on or off.
 - If something goes wrong, StarRunner-log.txt next to StarRunner.exe says what.
 - To remove StarRunner: delete its folder and %APPDATA%\StarRunner.
+
+Credits
+- Ship cargo grid layouts (Hauling) come from sc-cargo.space (MIT license) and
+  the Star Citizen Wiki (api.star-citizen.wiki). Thank you to both projects.
+- The Mining ore finder's ore locations and percentages come from SCMiner (scminer.rocks).
+  Thank you to them too. The numbers are a copy made at a game patch, so they can be a little behind.
 ```
 
