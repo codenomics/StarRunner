@@ -24,19 +24,15 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v3.5** (Nov 1, 2026)
+**Latest version: v3.6** (Nov 15, 2026)
 
-- [StarRunner_v3.5_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.5/StarRunner_v3.5_no-install.zip) - 669 KB
-- [StarRunner_v3.5_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.5/StarRunner_v3.5_Setup.exe) - 723 KB
-- [StarRunner_v3.5_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.5/StarRunner_v3.5_source.zip) - 654 KB
+- [StarRunner_v3.6_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.6/StarRunner_v3.6_no-install.zip) - 673 KB
+- [StarRunner_v3.6_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.6/StarRunner_v3.6_Setup.exe) - 728 KB
+- [StarRunner_v3.6_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.6/StarRunner_v3.6_source.zip) - 658 KB
 
-What's new in v3.5:
+What's new in v3.6:
 
-- Inventory: when an item is in SCU the Add item window now has a line for each box size (1, 2, 4, 8, 16, 24, 32 SCU) where you type how many boxes you have; the amount is worked out and the boxes show under the item name. Leave it empty and nothing changes.
-- Inventory > All items: double-click something that is at several places to get a list of those places, then click one to open it.
-- Mining: new Ore finder on the Mining tab. Search all the ores, click one to see where it is found with percentages (planets and moons, belts, Lagrange points), or switch to Places and see which ores a place has. Open on SCMiner opens their page. The data is from scminer.rocks (credited), patch 4.10.2.
-- Mining: the Overlay is more compact and the Refinery timers now sit under it.
-- Home: new Update game data button (Game data card). It gets the newest blueprint recipes, Wikelo offers and hauling distances in one click.
+- Blueprints: pick a blueprint and click Where to get it to see which missions give it, who gives them and the reputation rank you need with them, easiest first. Each mission also says whether the blueprint comes from a pool (one random blueprint out of a group) or is always given. Double-click a mission to open it on the Star Citizen Wiki. The data comes from the Star Citizen Wiki and updates with Update recipes.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
