@@ -24,15 +24,17 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v3.6** (Nov 15, 2026)
+**Latest version: v3.7** (Nov 19, 2026)
 
-- [StarRunner_v3.6_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.6/StarRunner_v3.6_no-install.zip) - 673 KB
-- [StarRunner_v3.6_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.6/StarRunner_v3.6_Setup.exe) - 728 KB
-- [StarRunner_v3.6_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.6/StarRunner_v3.6_source.zip) - 658 KB
+- [StarRunner_v3.7_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.7/StarRunner_v3.7_no-install.zip) - 684 KB
+- [StarRunner_v3.7_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.7/StarRunner_v3.7_Setup.exe) - 739 KB
+- [StarRunner_v3.7_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.7/StarRunner_v3.7_source.zip) - 668 KB
 
-What's new in v3.6:
+What's new in v3.7:
 
-- Blueprints: pick a blueprint and click Where to get it to see which missions give it, who gives them and the reputation rank you need with them, easiest first. Each mission also says whether the blueprint comes from a pool (one random blueprint out of a group) or is always given. Double-click a mission to open it on the Star Citizen Wiki. The data comes from the Star Citizen Wiki and updates with Update recipes.
+- Trade: new tab with the most profitable trade routes for your ship and budget (pick which system to buy in and which to sell in; what to buy, where to buy it, where to sell it, profit per load, distance and how fresh the prices are), plus a Commodity prices view showing where to buy and sell any commodity. Prices come from UEX Corp (uexcorp.space) and refresh by themselves.
+- Trade: a filter to show only places that load and unload your ship for you (stations and cities), so you don't hand-load at an outpost. Routes also say when you'd have to load or unload by hand.
+- Home: Update game data now also gets the newest trade prices.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
@@ -315,5 +317,7 @@ Credits
   the Star Citizen Wiki (api.star-citizen.wiki). Thank you to both projects.
 - The Mining ore finder's ore locations and percentages come from SCMiner (scminer.rocks).
   Thank you to them too. The numbers are a copy made at a game patch, so they can be a little behind.
+- The Trade tab's prices come from UEX Corp (uexcorp.space), reported by players.
+  They can be a little off from your server, so check the terminal before you buy.
 ```
 
