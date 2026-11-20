@@ -24,15 +24,15 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v3.7** (Nov 19, 2026)
+**Latest version: v3.8** (Nov 20, 2026)
 
-- [StarRunner_v3.7_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.7/StarRunner_v3.7_no-install.zip) - 684 KB
-- [StarRunner_v3.7_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.7/StarRunner_v3.7_Setup.exe) - 739 KB
-- [StarRunner_v3.7_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.7/StarRunner_v3.7_source.zip) - 668 KB
+- [StarRunner_v3.8_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.8/StarRunner_v3.8_no-install.zip) - 685 KB
+- [StarRunner_v3.8_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.8/StarRunner_v3.8_Setup.exe) - 739 KB
+- [StarRunner_v3.8_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.8/StarRunner_v3.8_source.zip) - 668 KB
 
-What's new in v3.7:
+What's new in v3.8:
 
-- Trade: new tab with the most profitable trade routes for your ship and budget (pick which system to buy in and which to sell in; what to buy, where to buy it, where to sell it, profit per load, distance and how fresh the prices are), plus a Commodity prices view showing where to buy and sell any commodity. Prices come from UEX Corp (uexcorp.space) and refresh by themselves.
+- Trade: new tab with the most profitable trade routes for your ship and budget (pick which system to buy in and which to sell in; what to buy, where to buy it, where to sell it, profit per load, distance and how fresh the prices are), plus a Commodity prices view: search a commodity or a place to see where to buy and sell it, highest price first. Prices come from UEX Corp (uexcorp.space) and refresh by themselves.
 - Trade: a filter to show only places that load and unload your ship for you (stations and cities), so you don't hand-load at an outpost. Routes also say when you'd have to load or unload by hand.
 - Home: Update game data now also gets the newest trade prices.
 
