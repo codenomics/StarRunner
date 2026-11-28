@@ -24,27 +24,22 @@ All your Star Citizen tools in one window. StarRunner puts player lookups, minin
 
 ## Download
 
-**Latest version: v3.9** (Nov 22, 2026)
+**Latest version: v4.0** (Nov 28, 2026)
 
-- [StarRunner_v3.9_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v3.9/StarRunner_v3.9_no-install.zip) - 716 KB
-- [StarRunner_v3.9_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v3.9/StarRunner_v3.9_Setup.exe) - 769 KB
-- [StarRunner_v3.9_source.zip](https://github.com/codenomics/StarRunner/releases/download/v3.9/StarRunner_v3.9_source.zip) - 701 KB
+- [StarRunner_v4.0_no-install.zip](https://github.com/codenomics/StarRunner/releases/download/v4.0/StarRunner_v4.0_no-install.zip) - 746 KB
+- [StarRunner_v4.0_Setup.exe](https://github.com/codenomics/StarRunner/releases/download/v4.0/StarRunner_v4.0_Setup.exe) - 799 KB
+- [StarRunner_v4.0_source.zip](https://github.com/codenomics/StarRunner/releases/download/v4.0/StarRunner_v4.0_source.zip) - 732 KB
 
-What's new in v3.9:
+What's new in v4.0:
 
-- Mining: new Wanted list. Click Wanted... on the Mining tab and tick the minerals you are looking for. When the overlay reads one of them it turns gold with a star and a thick gold border, and the Mining tab shows it in gold too. If a scan number fits more than one mineral, the wanted one is shown first.
-- Parts: new tab. Ship loadout: pick a ship to see its weapons, missiles, shields, power plants, coolers, quantum drive and radar; click a slot to swap the part from a list of everything that fits (best first). The totals (weapon DPS and alpha, shield HP and regen, power made and used, cooling, EM/IR signature, quantum speed) show the change from stock, and your loadout is saved per ship. Also plain reference tables of ship weapons, shields, power plants, coolers, quantum drives and radars (DPS, alpha, shield HP and regen, power, cooling, quantum speed, signatures...). Filter by size, search by name or maker, click a column heading to sort; the best number in each column shows in cyan. Stats come from the Star Citizen Wiki.
-- Hauling: Read contract. Open an accepted contract in the game (Contracts > Accepted, objectives showing) and click Read contract, or press the Read screen key in the game (the same key as the refinery reader: it works out which screen it's looking at). StarRunner reads the PRIMARY OBJECTIVES (what goes where, how many SCU, where to collect it) and adds the contract. If the contract says how big the containers are (like "4 SCU or smaller"), the box sizes are filled in from that. If a drop-off has several pickups, the SCU is split evenly. Only if it can't recognise a place does it show you the contract to check when you're back in StarRunner. Read contracts get their name from the game, and if you saved the same contract before, its box sizes come with it.
-- Hauling: contracts can have a name (shown above the route); it's filled in from the screen or you can type it.
-- Hauling: each line of a contract can have its cargo (Stims, Waste, Corundum...). It's read from the screen or typed in the contract window, and shows in the route and the contract list.
-- Hauling: with the cargo map on, each Load and Unload line in the route is colored like its boxes on the map.
-- Hauling cargo map: new Load / Unload view (now the default). For the stop you pick it shows what to unload (outlined pink) and then what to load (outlined white), each on its own light card, with the boxes that stay faded. Arrive and Leave are still there.
-- Hauling cargo map: All layers shows every layer side by side, so there's no switching between layers.
-- Hauling cargo map: Pop out puts the cargo map in its own window you can put on another screen. It follows the stop you pick (and the check-off key), and you can size it any way you like. It's always fully solid, even if pop-outs are set to see-through.
-- Pop-out windows no longer take the keyboard from the game when clicked, and go back where you put them if something else moves them.
-- Hauling cargo map: boxes going to the same stop are stacked together, and a box is no longer put on top of one that comes off at an earlier stop (unless there's no other room).
-- Hauling: the save button on a contract shows when it's already one of your saved contracts (cyan), or saved but its boxes or cargo changed since (amber dot). Saving again updates the saved one.
-- Hauling: "Pick up here next" on a pick-up stop. Tick it when you know you can squeeze a contract in now (extra boxes off the grid): StarRunner goes there first and plans the rest of the route from there.
+- Hauling: contracts the game gives the same name (like two "Everus Harbor > HUR-L1 Green Glade Station" hauls with different cargo) now show their cargo after the name, so you can tell them apart.
+- Hauling: reading a contract off the screen only uses a saved contract with the same cargo, and saving a contract offers a name with its cargo in it.
+- Hauling: the Saved contracts and Saved routes windows now open about as big as StarRunner, so you can see more of the list, and saved contracts show their cargo.
+- Hauling: Auto check-off (off to start; tick it on the Hauling tab). StarRunner follows your contracts in the game's log: when you finish a pickup, a drop-off or a whole contract, it ticks the stop off for you. If you abandon (or fail) a contract, it asks whether to take it off your list, and the route is planned again from your last checked-off stop.
+- Wallet: a new tab. Turn on live game data (one click on the Home tab, then restart the RSI Launcher) and your balance comes live from the game. Every change is listed: purchases and sales by name, contract pay by contract, everything else as Spent or Earned. Your history from before (purchases, sales and contract pay from the game's logs, with the reward read off your hauling contracts when the game didn't log it) is still there, and Purchases and Sales are grouped (like "Plushie  x3"). Double-click any line in Activity to give it your own name.
+- Home: a Live game data card explains what it does and turns it on or off. It only talks to programs on this PC and can't change anything on your computer.
+- Home: Clear after a wipe... For when Star Citizen wipes: clears your inventory, wallet history, hauling contracts, blueprints and refinery timers (you pick which), after saving a copy of everything first.
+- Dragging StarRunner out of full screen now keeps the window under your mouse, even when you drag fast.
 
 Older versions are on the [Releases page](https://github.com/codenomics/StarRunner/releases).
 
